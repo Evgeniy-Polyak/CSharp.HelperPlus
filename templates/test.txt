@@ -2,16 +2,15 @@ using System;
 using Xunit;
 using FluentAssertions;
 
-namespace $namespace
-{
-    public class $name : IDisposable
-    {
-        public $name()
-        {
-        }
+namespace $namespace;
 
-        public void Dispose()
-        {
-        }
+public class $name : IDisposable
+{
+    public $name()
+    {
+    }
+
+    public void Dispose()
+    {
     }
 }

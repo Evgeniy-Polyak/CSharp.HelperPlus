@@ -1,4 +1,6 @@
-# C# Helper
+# C# Helper Plus
+
+## It is fork https://github.com/sharklasers996/csharp-helper
 
 Functions are intended to be called using keyboard shortcuts (or command search dropdown), hence no mouse menus.
 
@@ -6,7 +8,7 @@ There are no default keyboard shortcuts, you can set them yourself searching for
 
 # Inject Dependency (C#)
 
-`csharp-helper.inject-dependency`
+`csharp-helper-plus.inject-dependency`
 
 Provides search input for finding \*.cs files, adds selected file name to constructor, creates private readonly field, formats constructor on separate lines if it has more than one parameter.
 
@@ -21,25 +23,25 @@ Files are created with correct namespace.
 
 - Create New Class (C#)
 
-`csharp-helper.create-class`
+`csharp-helper-plus.create-class`
 
 - Create New Interface (C#)
 
-`csharp-helper.create-interface`
+`csharp-helper-plus.create-interface`
 
 - Create New Enum (C#)
 
-`csharp-helper.create-enum`
+`csharp-helper-plus.create-enum`
 
 - Create New Test Class (C#)
 
-`csharp-helper.create-test`
+`csharp-helper-plus.create-test`
 
 ![alt text](https://raw.githubusercontent.com/sharklasers996/csharp-helper/master/assets/new-class.gif)
 
 # Embed selected text into a code block (C#)
 
-`csharp-helper.embed-code`
+`csharp-helper-plus.embed-code`
 
 Provides prompt to select template, surrounds selected text with template.
 
@@ -55,7 +57,7 @@ if (...) { ... }
 
 # Fix namespace (C#)
 
-`csharp-helper.fix-namespace`
+`csharp-helper-plus.fix-namespace`
 
 Corrects namespace in current file based on path to project.
 
@@ -63,7 +65,7 @@ Corrects namespace in current file based on path to project.
 
 # Fix filename (C#)
 
-`csharp-helper.fix-filename`
+`csharp-helper-plus.fix-filename`
 
 Renames file to match class name.
 
@@ -71,7 +73,7 @@ Renames file to match class name.
 
 # Toggle Method Sync (C#)
 
-`csharp-helper.toggle-method-sync`
+`csharp-helper-plus.toggle-method-sync`
 
 Changes method signature to async and vice versa
 

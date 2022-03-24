@@ -1,12 +1,12 @@
 {
-	"name": "csharp-helper",
-	"displayName": "C# Helper",
-	"description": "Helper functions to speed up C# development.",
-	"publisher": "roadsidejesus",
+	"name": "csharp-helper-plus",
+	"displayName": "C# Helper Plus",
+	"description": "Helpers for C# development.",
+	"publisher": "EvgeniyPolyak",
 	"repository": {
-		"url": "https://github.com/sharklasers996/csharp-helper"
+		"url": "https://github.com/Evgeniy-Polyak/CSharp.HelperPlus"
 	},
-	"version": "0.0.14",
+	"version": "0.2.3",
 	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.43.0"
@@ -27,53 +27,53 @@
 		"namespace"
 	],
 	"activationEvents": [
-		"onCommand:csharp-helper.inject-dependency",
-		"onCommand:csharp-helper.create-class",
-		"onCommand:csharp-helper.create-interface",
-		"onCommand:csharp-helper.create-enum",
-		"onCommand:csharp-helper.create-test",
-		"onCommand:csharp-helper.embed-code",
-		"onCommand:csharp-helper.fix-namespace",
-		"onCommand:csharp-helper.toggle-method-sync",
-		"onCommand:csharp-helper.fix-filename"
+		"onCommand:csharp-helper-plus.inject-dependency",
+		"onCommand:csharp-helper-plus.create-class",
+		"onCommand:csharp-helper-plus.create-interface",
+		"onCommand:csharp-helper-plus.create-enum",
+		"onCommand:csharp-helper-plus.create-test",
+		"onCommand:csharp-helper-plus.embed-code",
+		"onCommand:csharp-helper-plus.fix-namespace",
+		"onCommand:csharp-helper-plus.toggle-method-sync",
+		"onCommand:csharp-helper-plus.fix-filename"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "csharp-helper.inject-dependency",
+				"command": "csharp-helper-plus.inject-dependency",
 				"title": "Inject Dependency (C#)"
 			},
 			{
-				"command": "csharp-helper.create-class",
+				"command": "csharp-helper-plus.create-class",
 				"title": "Create New Class (C#)"
 			},
 			{
-				"command": "csharp-helper.create-interface",
+				"command": "csharp-helper-plus.create-interface",
 				"title": "Create New Interface (C#)"
 			},
 			{
-				"command": "csharp-helper.create-enum",
+				"command": "csharp-helper-plus.create-enum",
 				"title": "Create New Enum (C#)"
 			},
 			{
-				"command": "csharp-helper.create-test",
+				"command": "csharp-helper-plus.create-test",
 				"title": "Create New Test Class (C#)"
 			},
 			{
-				"command": "csharp-helper.embed-code",
+				"command": "csharp-helper-plus.embed-code",
 				"title": "Embed Selection Into a Code Block (C#)"
 			},
 			{
-				"command": "csharp-helper.fix-namespace",
+				"command": "csharp-helper-plus.fix-namespace",
 				"title": "Fix Namespace (C#)"
 			},
 			{
-				"command": "csharp-helper.toggle-method-sync",
-				"title": "Toggle Method Sync (C#)"
+				"command": "csharp-helper-plus.toggle-method-sync",
+				"title": "Toggle Method-plus Sync (C#)"
 			},
 			{
-				"command": "csharp-helper.fix-filename",
+				"command": "csharp-helper-plus.fix-filename",
 				"title": "Fix Filename (C#)"
 			}
 		]

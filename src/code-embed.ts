@@ -35,7 +35,7 @@ export class CodeEmbed {
         }
 
         const selectedCodeBlock = codeBlocks.find(c => c.name == quickPickSelection);
-        const doc = await vscode.workspace.openTextDocument(vscode.extensions.getExtension('roadsidejesus.csharp-helper')!.extensionPath + '/templates/code-blocks/' + selectedCodeBlock?.template);
+        const doc = await vscode.workspace.openTextDocument(vscode.extensions.getExtension('EvgeniyPolyak.csharp-helper-plus')!.extensionPath + '/templates/code-blocks/' + selectedCodeBlock?.template);
 
         const selectionRange = new vscode.Range(new vscode.Position(start!.line, 0), new vscode.Position(end!.line + 1, 0));
         let codeToEmbed = document.getText(selectionRange);

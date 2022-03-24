@@ -74,7 +74,7 @@ async function promptFileCreation(fileType: string) {
 }
 
 async function createFile(filename: string, templateName: string, objectName: string, namespace: string) {
-    const doc = await vscode.workspace.openTextDocument(vscode.extensions.getExtension('roadsidejesus.csharp-helper')!.extensionPath + '/templates/' + templateName + '.txt')
+    const doc = await vscode.workspace.openTextDocument(vscode.extensions.getExtension('EvgeniyPolyak.csharp-helper-plus')!.extensionPath + '/templates/' + templateName + '.txt')
 
     let text = doc.getText();
     text = text.replace('$namespace', namespace);

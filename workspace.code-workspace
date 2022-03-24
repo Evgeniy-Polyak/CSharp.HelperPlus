@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Gpn.Brd.Ecosystem.Ksunci"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"dotnet-test-explorer.testProjectPath": "**/*.sln"
+	}
+}

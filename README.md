@@ -2,9 +2,26 @@
 
 ## It is fork https://github.com/sharklasers996/csharp-helper
 
+```Current version: 0.2.3```
+
+### What changed
+
+**For all files - Class, Enum, Interface and Test class a new namespace has been added, as in C# 10.**
+
+For example template for a class:
+
+```C#
+namespace MyNamespace;
+
+public class MyClass
+{
+
+}
+``` 
+
 Functions are intended to be called using keyboard shortcuts (or command search dropdown), hence no mouse menus.
 
-There are no default keyboard shortcuts, you can set them yourself searching for `csharp-helper` in keyboard shortcuts menu.
+There are no default keyboard shortcuts, you can set them yourself searching for `csharp-helper-plus` in keyboard shortcuts menu.
 
 # Inject Dependency (C#)
 
